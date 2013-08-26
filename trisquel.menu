@@ -1,0 +1,14 @@
+MENU BEGIN TRISQUEL
+MENU LABEL ^Trisquel 5.5
+# ------====> Include Menu Settings <====------
+MENU INCLUDE er/menuinc/header.module
+
+# ------====> Set Specific Page Settings <====------
+MENU BACKGROUND er/plugins/trisquel/trisquel.png
+
+MENU INCLUDE er/plugins/trisquel/i386/trisquelmain.menu
+MENU INCLUDE er/plugins/trisquel/x86_64/trisquelmain.menu
+
+# ------====> Back <====------
+MENU INCLUDE er/menu/shared/menu-back.module
+MENU END

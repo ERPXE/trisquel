@@ -1,0 +1,16 @@
+.:
+filelist.txt
+i386
+trisquel.jpg
+trisquel.menu
+x86_64
+
+./i386:
+initrd
+trisquelmain.menu
+vmlinuz
+
+./x86_64:
+initrd
+trisquelmain.menu
+vmlinuz

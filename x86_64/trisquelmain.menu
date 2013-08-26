@@ -1,0 +1,8 @@
+LABEL TRISQUEL64
+MENU LABEL ^Trisquel Live - x64
+KERNEL er/plugins/trisquel/x86_64/vmlinuz
+INITRD er/plugins/trisquel/x86_64/initrd
+APPEND boot=casper netboot=nfs nfsroot=10.0.0.1:/tftpboot/er/shares/trisquel/x86_64 ramdisk_size=200000 nolock vga=791 aufs
+TEXT HELP
+                 Trisquel Linux x64.
+ENDTEXT
